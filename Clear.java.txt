@@ -1,0 +1,29 @@
+
+//Clear a Set
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Clear {
+
+    public static void main(String[] args){
+
+
+        Set<Character> charSet = new HashSet<>();
+
+        charSet.add('H');
+        charSet.add('R');
+        charSet.add('Y');
+        charSet.add('i');
+
+        charSet.remove('H');
+        charSet.remove('R');
+        charSet.remove('Y');
+        charSet.remove('i');
+
+
+        System.out.println("The size of the set : "+charSet.size());
+
+    }
+
+}
